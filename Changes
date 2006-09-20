@@ -4,3 +4,6 @@ Revision history for Perl extension Module::Versions.
 	- original version; created by h2xs 1.23 with options
 		-XAn Module::Versions
 
+0.02  Wen Sep 20 07:45:02 2006
+	- fix distribution
+

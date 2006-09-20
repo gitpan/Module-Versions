@@ -23,7 +23,7 @@ our ( $VERSION, $v, $_VERSION );
 #    With respect to historical versions of Perl itself prior to 5.6.0 and
 #    the Camel rules ('...Leading zeros *are* significant...').
 #    Should be CPAN and version.pm compatible... Ref: BUGS
-$VERSION = do { my @r = ( ( $v = q<Version value="0.10.27"> ) =~ /\d+/g ); sprintf "%d.%02d", $r[0], int( $r[1] / 10 ) };
+$VERSION = do { my @r = ( ( $v = q<Version value="0.20.1"> ) =~ /\d+/g ); sprintf "%d.%02d", $r[0], int( $r[1] / 10 ) };
 
 # -- Mumified VERSION (='major.minor{3}release{3}revision{3}')
 $_VERSION = do {
